@@ -28,3 +28,8 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
+button {
+  display: block;
+  margin: 20px auto;
+}
