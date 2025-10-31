@@ -10,7 +10,7 @@ function getLocation() {
       const lon = position.coords.longitude;
       coords.innerText = `Latitude: ${lat.toFixed(4)}, Longitude: ${lon.toFixed(4)}`;
 
-      // Use a free API to convert coordinates to a city name
+      
       try {
         const response = await fetch(`https://geocode.maps.co/reverse?lat=${lat}&lon=${lon}`);
         const data = await response.json();
