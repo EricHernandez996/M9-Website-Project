@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +8,42 @@
 </head>
 
 <body>
+ 
   <div class="center">
     <img src="Images/EH Designs No Background.png" alt="EH Designs Logo">
   </div>
 
+  
   <h1>Welcome to EH Designs</h1>
   <a href="contact.html"><h2>Contact Me if you have any questions</h2></a>
   <h2>@EH Designs on all platforms</h2>
 
-<button onclick="getLocation()">Find My Location</button>
+ 
+  <button onclick="getLocation()">Find My Location</button>
+  <p id="coords"></p>
+  <p id="city"></p>
 
-<p id="coords"></p>
-<p id="city"></p>
+  <div class="flex-container">
+    <div class="flex-item">
+      <img src="Images/design1.jpg" alt="Design 1">
+      <h3>Brand Design</h3>
+      <p>Custom logos and visual identities that define your brand.</p>
+    </div>
 
-<script src="script.js"></script>
-</body>
-</html>
+    <div class="flex-item">
+      <img src="Images/design2.jpg" alt="Design 2">
+      <h3>Web Design</h3>
+      <p>Responsive and creative web layouts tailored to your audience.</p>
+    </div>
+
+    <div class="flex-item">
+      <img src="Images/design3.jpg" alt="Design 3">
+      <h3>Social Media</h3>
+      <p>Eye-catching content that helps your brand stand out online.</p>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
 </body>
 </html>
